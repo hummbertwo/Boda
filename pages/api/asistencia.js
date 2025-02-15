@@ -1,5 +1,6 @@
 import { db } from "../../lib/firebase";
 
+
 export default async function handler(req, res) {
   if (req.method === "POST") {
     const { nombre, email } = req.body;

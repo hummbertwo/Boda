@@ -1,6 +1,7 @@
 // /pages/index.js
 import { useState } from 'react';
 import QRCode from 'react-qr-code';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   const [nombre, setNombre] = useState("");
